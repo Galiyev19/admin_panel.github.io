@@ -1,0 +1,6 @@
+.block{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: rgb(129, 193, 248);
+}
