@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style_2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <input class="input" type="text" placeholder="Поиск">
+            <div class="info_block">
+                <img src="images/Vector.png" alt="vector">
+                <span class="acc_data">133 458,32 ₽</span>
+                <div class="line"></div>
+                <img class="icon" src="images/Messages.png" alt="Messages">
+                <h2 class="user_name">Имя Фамилия</h2>
+                <img class="icon" src="images/Userpic.png" alt="Userpic">
+            </div>
+        </div>
+        <div class="sidebar">
+            <img class="logo" src="images/Logo.png" alt="logo">
+            <div class="sidebar_menu">
+                <div class="sidebar_menu_item">
+                    <img src="images/payment.png" alt="payment">
+                    <span class="sidebar_menu_item_text">Продукты</span>
+                </div>
+                <div class="sidebar_menu_item">
+                    <img src="images/Transfers.png" alt="Transfers">
+                    <span class="sidebar_menu_item_text">Переводы</span>
+                </div>
+                <div class="sidebar_menu_item">
+                    <img src="images/Payments.png" alt="payment">
+                    <span class="sidebar_menu_item_text">Платежи</span>
+                </div>
+                <div class="sidebar_menu_item">
+                    <img src="images/History.png" alt="History">
+                    <span class="sidebar_menu_item_text">История</span>
+                </div>
+                <div class="sidebar_menu_item">
+                    <img src="images/Settings.png" alt="Settings">
+                    <span class="sidebar_menu_item_text">Настройки</span>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="transfer_block">
+                <h2 class="black_text text_size">Переводы</h2>
+                <div class="transfer_block_item">
+                    <nav class="transfers_block_item_menu">
+                        <span class="nav_menu">Во времени </span>
+                        <span class="nav_menu center_menu">С карты на карту</span>
+                        <span class="nav_menu center_menu">По телефону</span>
+                        <span class="nav_menu">По реквизитам</span>
+                    </nav>
+                    <span class="black_text transfer_text_mg">Откуда</span>
+                    <div class="custom_select">
+                        <i class="fab fa-cc-visa icon_visa"></i>
+                        <select class="select" name="select" id="">
+                            <option class="black_text" value="1">Дебетовая карта *3478 Visa Gold</option>
+                        </select>
+                    </div>
+                    <span class="black_text transfer_text_mg">Когда</span>
+                    <div class="input_transfers_block">
+                        <input class="input_transfers black_text" type="text" placeholder="Выберите время получения">
+                        <i class="fas fa-calendar-alt icon_color"></i>
+                    </div>
+                    <span class="black_text transfer_text_mg">Куда</span>
+                    <div class="input_transfers_block">
+                        <input class="input_transfers black_text" type="text" placeholder="Выберите место получения">
+                        <i class="fas fa-map-marker-alt icon_color"></i>
+                    </div>
+                    <span class="black_text transfer_text_mg">Способ получения</span>
+                    <div class="input_transfers_block">
+                        <input class="input_transfers black_text" type="text" placeholder="Выберите метод получения">
+                        <i class="fas fa-hand-point-right icon_color"></i>
+                    </div>
+                    <span class="black_text transfer_text_mg">Кому</span>
+                    <div class="input_transfers_block">
+                        <input class="input_transfers black_text" type="text" placeholder="Введите имя получателя">
+                        <i class="fas fa-user-alt icon_color"></i>
+                    </div>
+                    <span class="black_text transfer_text_mg">Сумма</span>
+                    <div class="input_transfers_block">
+                        <input class="input_transfers black_text" type="text" placeholder="Введите сумму">
+                    </div>
+                    <div class="buttons_block">
+                        <button class="btn_left black_text">Перевести</button>
+                        <button class="btn_right black_text">Отмена</button>
+                    </div>
+                </div>
+            </div>
+            <div class="history_block">
+                <h2 class="black_text text_size">История переводов</h2>
+                <div class="history_block_item">
+                    <div class="history_date_block">
+                        <div class="block_date">
+                            <span class="date_text_blue">Сб, 6 июня 2020 — Пт, 12 июня 2020 </span>
+                        </div>
+                        <div class="block_date">
+                            <img class="ellipse" src="images/Subtract.png" alt="Subtract">
+                            <span>7 дней</span>
+                            <img class="ellipse img_mrg" src="images/Ellipse 16.png" alt="Ellipse">
+                            <span>30 дней</span>
+                            <i class="fas fa-calendar-alt icon_color_history mrg_icon "></i>
+                            <span>Выбрать период</span>
+                        </div>
+                    </div>
+                    <div class="line_history"></div>
+                    <div class="history_list_block">
+                        <div class="date_block">
+                            <div class="date_block_item">
+                                <img src="images/icon_1.png" alt="avatar">
+                                <span class="history_text_gray">12 июня 2020, 14:16</span>
+                            </div>
+                            <div class="date_block_item">
+                                <img src="images/icon_1.png" alt="avatar">
+                                <span class="history_text_gray">8 июня 2020, 16:49</span>
+                            </div>
+                            <div class="date_block_item">
+                                <img src="images/icon_1.png" alt="avatar">
+                                <span class="history_text_gray">8 июня 2020, 14:16</span>
+                            </div>
+                            <div class="date_block_item">
+                                <img src="images/icon_2.png" alt="avatar">
+                                <span class="history_text_gray">7 июня 2020, 16:46</span>
+                            </div>
+                            <div class="date_block_item">
+                                <img src="images/icon_3.png" alt="avatar">
+                                <span class="history_text_gray">7 июня 2020, 15:29</span>
+                            </div>
+                            <div class="date_block_item">
+                                <img src="images/icon_4.png" alt="avatar">
+                                <span class="history_text_gray">7 июня 2020, 13:00</span>
+                            </div>
+                            <div class="date_block_item">
+                                <img src="images/icon_2.png" alt="avatar">
+                                <span class="history_text_gray">7 июня 2020, 0:17</span>
+                            </div>
+                            <div class="date_block_item">
+                                <img src="images/icon_4.png" alt="avatar">
+                                <span class="history_text_gray">6 июня 2020, 18:14</span>
+                            </div>
+                            <div class="date_block_item">
+                                <img src="images/icon_5.png" alt="avatar">
+                                <span class="history_text_gray">6 июня 2020, 17:05</span>
+                            </div>
+                            <div class="date_block_item">
+                                <img src="images/icon_6.png" alt="avatar">
+                                <span class="history_text_gray">6 июня 2020, 15:31</span>
+                            </div>
+                        </div>
+                        <div class="user_name_block">
+                            <div class="user_name_block_item">
+                                <span class="black_text name_text_size">Бендер Р. / Big Apple Bank</span>
+                            </div>
+                            <div class="user_name_block_item">
+                                <span class="black_text name_text_size">Бендер Р. / Big Apple Bank</span>
+                            </div>
+                            <div class="user_name_block_item">
+                                <span class="black_text name_text_size">Бендер Р. / Big Apple Bank</span>
+                            </div>
+                            <div class="user_name_block_item">
+                                <span class="black_text name_text_size">И. Гутенберг / Amsterdamsche Wissel…</span>
+                            </div>
+                            <div class="user_name_block_item">
+                                <span class="black_text name_text_size">А. Эйнштейн / Societe Generale</span>
+                            </div>
+                            <div class="user_name_block_item">
+                                <span class="black_text name_text_size">Македонский А. / Храм Плутоса</span>
+                            </div>
+                            <div class="user_name_block_item">
+                                <span class="black_text name_text_size">И. Гутенберг / Berenberg Bank</span>
+                            </div>
+                            <div class="user_name_block_item">
+                                <span class="black_text name_text_size">Македонский А. / Храм Плутоса</span>
+                            </div>
+                            <div class="user_name_block_item">
+                                <span class="black_text name_text_size">T-800 / Skynet Transfer</span>
+                            </div>
+                            <div class="user_name_block_item">
+                                <span class="black_text name_text_size">Герасим Немой / Меняльная лавка</span>
+                            </div>
+                        </div>
+                        <div class="card_id_block">
+                            <div class="card_id_block_item">
+                                <span class="history_text_gray id_text_size">с Дебетовая *3478</span>
+                            </div>
+                            <div class="card_id_block_item">
+                                <span class="history_text_gray id_text_size">с Дебетовая *3478</span>
+                            </div>
+                            <div class="card_id_block_item">
+                                <span class="history_text_gray id_text_size">с Дебетовая *3478</span>
+                            </div>
+                            <div class="card_id_block_item">
+                                <span class="history_text_gray id_text_size">с Дебетовая *3478</span>
+                            </div>
+                            <div class="card_id_block_item">
+                                <span class="history_text_gray id_text_size">с Дебетовая *3478</span>
+                            </div>
+                            <div class="card_id_block_item">
+                                <span class="history_text_gray id_text_size">с Дебетовая *3478</span>
+                            </div>
+                            <div class="card_id_block_item">
+                                <span class="history_text_gray id_text_size">с Дебетовая *3478</span>
+                            </div>
+                            <div class="card_id_block_item">
+                                <span class="history_text_gray id_text_size">с Дебетовая *3478</span>
+                            </div>
+                            <div class="card_id_block_item">
+                                <span class="history_text_gray id_text_size">с Дебетовая *3478</span>
+                            </div>
+                            <div class="card_id_block_item">
+                                <span class="history_text_gray id_text_size">с Дебетовая *3478</span>
+                            </div>
+                        </div>
+                        <div class="transfers_amount_block">
+                            <div class="transfers_amount_block_item">
+                                <span class="black_text main_cost_text">–3 265,<span class="history_text_gray main_cost_text">40 ₽</span></span>
+                            </div>
+                            <div class="transfers_amount_block_item">
+                                <span class="black_text main_cost_text">–5 469,<span class="history_text_gray main_cost_text">48 ₽</span></span>
+                            </div>
+                            <div class="transfers_amount_block_item">
+                                <span class="black_text main_cost_text">–3 189,<span class="history_text_gray main_cost_text">24 ₽</span></span>
+                            </div>
+                            <div class="transfers_amount_block_item">
+                                <span class="black_text main_cost_text">–5 159,<span class="history_text_gray main_cost_text">39 ₽</span></span>
+                            </div>
+                            <div class="transfers_amount_block_item">
+                                <span class="black_text main_cost_text">–1 114,<span class="history_text_gray main_cost_text">00 ₽</span></span>
+                            </div>
+                            <div class="transfers_amount_block_item">
+                                <span class="black_text main_cost_text">–8 966,<span class="history_text_gray main_cost_text">95 ₽</span></span>
+                            </div>
+                            <div class="transfers_amount_block_item">
+                                <span class="black_text main_cost_text">–1 590,<span class="history_text_gray main_cost_text">00 ₽</span></span>
+                            </div>
+                            <div class="transfers_amount_block_item">
+                                <span class="black_text main_cost_text">–1 518,<span class="history_text_gray main_cost_text">00 ₽</span></span>
+                            </div>
+                            <div class="transfers_amount_block_item">
+                                <span class="black_text main_cost_text">–9 679,<span class="history_text_gray main_cost_text">47 ₽</span></span>
+                            </div>
+                            <div class="transfers_amount_block_item">
+                                <span class="black_text main_cost_text">–1 670,<span class="history_text_gray main_cost_text">00 ₽</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>s

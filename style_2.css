@@ -1,0 +1,409 @@
+body{
+    background: #F2F2F6;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.black_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #212130;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 104px auto;
+    grid-template-rows: 104px 100vh ;
+    grid-template-areas: 
+    'sidebar header'
+    'sidebar content'
+    ;
+}
+
+
+/* HEADER */
+.header{
+    grid-area: header;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input{
+    background: #FFFFFF;
+    border: 1.5px solid #ADB5BD;
+    border-radius: 2px;
+    padding: 10px 8px;
+    margin-left: 32px;
+    width: 448px;
+}
+
+.info_block{
+    display: flex;
+    align-items: center;
+    margin-right: 136px;
+}
+
+.acc_data{
+    margin: 0 8px;
+}
+
+.line{
+    width: 24px;
+    border: 1.5px solid #ADB5BD;
+    transform: rotate(90deg);
+}
+
+.user_name{
+    font-size: 12px;
+    line-height: 12px;
+    color: #212130;
+    margin: 0 4px
+}
+
+.icon{
+    margin: 0 8px;
+}
+
+
+
+
+/* SIDEBAR */
+.sidebar{
+    grid-area: sidebar;
+    background-color: #17139C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    margin-top: 32px;
+}
+
+.sidebar_menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    height: 360px;
+    justify-content: space-around;
+}
+
+.sidebar_menu_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    width: 104px;
+    height: 63px;
+}
+
+.sidebar_menu_item img{
+    width: 21px;
+}
+
+.sidebar_menu_item_text{
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.sidebar_menu_item:hover{
+    background: #DD3E3E;
+    opacity: 0.2;
+}
+
+/* CONTENT */
+
+.content{
+    display: flex;
+    grid-area: content;
+    background-color: #F2F2F6;
+
+}
+
+.text_size{
+    font-size: 24px;
+    line-height: 18px;
+    margin-top: 24px;
+}
+
+.transfer_block{
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+}
+
+.transfer_block_item{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(38, 44, 64, 0.15);
+    border-radius: 2px;
+    width: 568px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-right: 30px;
+}
+
+.nav_menu{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #17139C;
+    transition: .3s;
+}
+
+
+.center_menu{
+    margin: 0 16px;
+}
+
+.transfer_text_mg{
+    margin-top: 20px;
+}
+
+.custom_select{
+    display: flex;
+    align-items: center;
+    padding: 8px 7px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    outline: none;
+    border: 1.5px solid #ADB5BD;
+    border-radius: 2px;
+}
+
+.select{
+    border: 0;
+    width: 100%;
+    margin-left: 8px;
+}
+
+.icon_visa{
+    font-size: 16px;
+}
+
+.input_transfers_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1.5px solid #ADB5BD;
+    border-radius: 2px;
+    padding: 10px 7px;
+    margin-top: 8px;
+}
+
+
+.input_transfers{
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+
+.input_transfers::placeholder{
+    color: #ADB5BD;
+}
+
+.icon_color{
+    color: #ADB5BD;
+}
+
+.buttons_block{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.btn_left{
+   padding: 10px 32px;
+   background: #17139C;
+   border-radius: 2px;
+   border: none;
+   outline: none;
+   color: #fff;
+} 
+
+.btn_right{
+    margin-left: 32px;
+    padding: 10px 32px;
+    background: #F2F2F6;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: #17139C;
+}
+
+.history_block{
+    margin-left: 26px;
+}
+
+.history_block_item{
+    width: 988px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(38, 44, 64, 0.15);
+    border-radius: 2px;
+    padding: 16px;
+}
+
+.history_date_block{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.block_date{
+    display: flex;
+    margin: 0;
+}
+
+.date_text_blue{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 18px;
+    color: #17139C;
+}
+
+.ellipse{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+
+.img_mrg{
+    margin-left: 16px;
+}
+
+.mrg_icon{
+    margin-left: 17px;
+    margin-right: 9px;
+}
+
+.icon_color_history{
+    color:  #17139C;
+}
+
+.line_history{
+    height: 1px;
+    width: 100%;
+    opacity: 0.1;
+    border: 1px solid #212130;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+
+.history_list_block{
+    display: grid;
+    grid-template-columns: 25% 35% 15% 25%;
+    grid-template-areas:
+    'date_block  user_name_block card_id_block transfers_amount_block'
+    ;
+}
+
+.history_text_gray{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+    color: #ADB5BD;
+    margin-left: 8px;
+}
+
+.date_block{
+    grid-area: date_block;
+    display: flex;
+    flex-direction: column;
+}
+
+.date_block_item{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.user_name_block{
+    grid-area: user_name_block;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_name_block_item{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    height: 24px;
+}
+
+.name_text_size{
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.card_id_block{
+    grid-area: card_id_block;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_id_block_item{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    height: 24px;
+    margin-left: 10px;
+}
+
+
+.id_text_size{
+    font-size: 14px;
+    line-height: 9px;
+}
+
+.transfers_amount_block{
+    grid-area: transfers_amount_block;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.transfers_amount_block_item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 8px 0;
+    height: 24px;
+}
+
+.main_cost_text{
+    font-size: 26px;
+    line-height: 18px;
+}
+
+.main_cost_text{
+    font-size: 26px;
+    line-height: 18px;
+    margin: 0;
+}

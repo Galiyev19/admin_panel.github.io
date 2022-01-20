@@ -1,1 +1,0 @@
-# Galiyev19.github.io
