@@ -1,1 +1,1 @@
-#  https://galiyev19.github.io/admin.github.io/
+#  https://galiyev19.github.io/admin_panel.github.io/
